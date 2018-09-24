@@ -17,3 +17,7 @@
   .watercolor {
       background-image: url("../images/green-watercolor.jpg") 
   }
+
+  .tech-skill-icons {
+      border-bottom: 2px solid #90a4ae;
+  }
