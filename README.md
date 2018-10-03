@@ -1,2 +1,2 @@
 # My Portfolio Page
-View my portfolio at juliemgroth.com
+View my portfolio at http://juliemgroth.com
