@@ -30,20 +30,27 @@
                         <div class="background">
                             <img src="assets/images/green-watercolor.jpg">
                         </div>
-                        <a href="#user"><img class="circle z-depth-3" src="assets/images/julie g.jpg"></a>
-                        <a href="#name"><span class="white-text name">Julie Groth</span></a>
-                        <a href="#email"><span class="white-text email">groth.julie@gmail.com</span></a>
+                        <a href="mailto:groth.julie@gmail.com"><img class="circle z-depth-3" src="assets/images/julie g.jpg"></a>
+                        <a href="mailto:groth.julie@gmail.com"><span class="white-text name">Julie Groth</span></a>
+                        <a href="mailto:groth.julie@gmail.com"><span class="white-text email">groth.julie@gmail.com</span></a>
                     </div>
                 </li>
-                <li><a href="https://www.linkedin.com/in/juliegroth/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/hooliaah" target="_blank">GitHub</a></li>
+                <li><a class="waves-effect" href="https://www.linkedin.com/in/juliegroth/" target="_blank"><i class="material-icons small sidenav-icon">link</i>LinkedIn</a></li>
+                <li><a class="waves-effect" href="https://github.com/hooliaah" target="_blank"><i class="material-icons small sidenav-icon">link</i>GitHub</a></li>
                 <li>
                     <div class="divider"></div>
                 </li>
-                <li><a class="subheader">Subheader</a></li>
-                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                <!-- Scrollspy TOC -->
+                <div class="col hide-on-small-only m3 l2">
+                    <ul class="section table-of-contents">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Tech Skills</a></li>
+                        <li><a href="#connect">Connect</a></li>
+                    </ul>
+                </div>
             </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class=" medium material-icons hamburger">menu</i></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium material-icons hamburger">menu</i></a>
 
             <!-- Text in Parallax Header -->
             <div>
@@ -55,7 +62,7 @@
     <!-- Main content area -->
     <main>
         <!-- About Me Section -->
-        <div class="section white">
+        <div id="about" class="section white scrollspy">
             <div class="row container">
                 <h2 class="header">About Me</h2>
                 <div class="col s12 m12 l3">
@@ -73,8 +80,8 @@
             </div>
         </div>
 
-        <!-- Project Section -->
-        <div class="section blue-grey lighten-2 z-depth-2">
+        <!-- Projects Section -->
+        <div id="projects" class="section blue-grey lighten-2 z-depth-2 scrollspy">
             <div class="row container">
                 <h2 class="header">Projects</h2>
                 <blockquote class="grey-text text-darken-3 lighten-3">Check out some of the apps I've built.</blockquote>
@@ -184,7 +191,7 @@
         </div>
 
         <!-- Tech Skill Section -->
-        <div class="section white z-depth-3">
+        <div id="skills" class="section white z-depth-3 scrollspy">
             <div class="row container">
                 <h2 class="header">Technical Skills</h2>
             </div>
@@ -260,7 +267,7 @@
         </div>
 
         <!-- Contact Me Section -->
-        <div class="section watercolor z-depth-3">
+        <div id="connect" class="section watercolor z-depth-3 scrollspy">
             <div class="row container">
                 <h2 class="header">Connect with me</h2>
                 <blockquote class="grey-text text-darken-3 lighten-3">Please reach out
@@ -269,7 +276,7 @@
             <div class="row container">
                 <div class="col s12 m12 l4 center">
                     <a href="mailto: groth.julie@gmail.com">
-                        <i class="material-icons" alt="email icon">email</i>
+                        <i class="material-icons email-icon" alt="email icon">email</i>
                     </a>
                     <p>Email</p>
                 </div>
@@ -296,6 +303,10 @@
     </footer>
 
     <!-- <a href="https://www.freepik.com/free-photo/blue-watercolor-stain-on-white-background_2498865.htm">Designed by Freepik</a>    Import Materialize JS -->
+    <!-- Link to jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Link to Materialize JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Link to JS -->
     <script src="assets/js/main.js"></script>
